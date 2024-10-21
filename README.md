@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# VibeVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VibeVerse is a 2D metaverse application built using Colyseus, Express, and other modern web technologies. It aims to create an immersive RPG-style experience similar to Gather Town, where users can interact with each other in a virtual space.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Multiplayer**: Utilize Colyseus for seamless real-time multiplayer interactions.
+- **2D Game Environment**: Built with Phaser 3 for engaging gameplay and animations.
+- **WebRTC Support**: Implemented using PeerJS to enable video and screen sharing capabilities.
+- **React Frontend**: A responsive user interface built with React and Redux.
+- **Server-Side Logic**: Backend powered by Express and Colyseus for room management and game state.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (v14 or later)
+- npm or yarn
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repository:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+   ```bash
+   git clone https://github.com/kartiktoogoated/VibeVerse.git
+   cd VibeVerse
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Install dependencies for both client and server:
+
+npm install
+cd server
+npm install
+
+Running the Application
+Start the server:
+
+bash
+Copy code
+npm start
+Start the client:
+
+Open a new terminal window and navigate back to the root of the project:
+
+bash
+Copy code
+cd VibeVerse
+npm run dev
+Access the application:
+
+Open your web browser and navigate to http://localhost:3000 (or the port specified in your configuration).
+
+Usage
+Join a room to start interacting with other players.
+Move your character using the mouse.
+Use the chat feature to communicate with other users.
+Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss changes.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+Colyseus
+Phaser 3
+PeerJS
+React
+Express
