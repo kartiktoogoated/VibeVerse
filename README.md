@@ -1,67 +1,66 @@
-# VibeVerse
+VibeVerse
 
-VibeVerse is a 2D metaverse application built using Colyseus, Express, and other modern web technologies. It aims to create an immersive RPG-style experience similar to Gather Town, where users can interact with each other in a virtual space.
+VibeVerse is a 2D metaverse app where users can interact with each other by joining rooms, moving their characters, and communicating through a chat feature. Built with technologies like Colyseus, Phaser 3, PeerJS, and React, this app provides a collaborative online experience.
 
-## Features
+Installation
 
-- **Real-time Multiplayer**: Utilize Colyseus for seamless real-time multiplayer interactions.
-- **2D Game Environment**: Built with Phaser 3 for engaging gameplay and animations.
-- **WebRTC Support**: Implemented using PeerJS to enable video and screen sharing capabilities.
-- **React Frontend**: A responsive user interface built with React and Redux.
-- **Server-Side Logic**: Backend powered by Express and Colyseus for room management and game state.
+Install Dependencies
+To install dependencies for both the client and server:
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or later)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/kartiktoogoated/VibeVerse.git
-   cd VibeVerse
-
-Install dependencies for both client and server:
-
+Install dependencies for the client:
+bash
+Copy code
 npm install
+Navigate to the server directory and install server dependencies:
+bash
+Copy code
 cd server
 npm install
-
 Running the Application
-Start the server:
 
+Start the Server
+In the server directory, start the server:
 bash
 Copy code
 npm start
-Start the client:
-
-Open a new terminal window and navigate back to the root of the project:
-
+Start the Client
+Open a new terminal window.
+Navigate back to the root of the project:
 bash
 Copy code
 cd VibeVerse
+Start the client:
+bash
+Copy code
 npm run dev
-Access the application:
+Access the Application
 
-Open your web browser and navigate to http://localhost:3000 (or the port specified in your configuration).
+Open your web browser and navigate to:
+
+arduino
+Copy code
+http://localhost:3000
+(or the port specified in your configuration).
 
 Usage
-Join a room to start interacting with other players.
-Move your character using the mouse.
-Use the chat feature to communicate with other users.
+
+Join a Room: Start interacting with other players by joining a room.
+Move Your Character: Use the mouse to move your character around.
+Chat: Use the chat feature to communicate with other users in real-time.
 Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss changes.
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss changes or suggest improvements.
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
-Colyseus
-Phaser 3
-PeerJS
-React
-Express
+
+This project leverages the following technologies:
+
+Colyseus: Multiplayer framework for Node.js.
+Phaser 3: HTML5 game framework.
+PeerJS: WebRTC peer-to-peer data, video, and audio communication.
+React: JavaScript library for building user interfaces.
+Express: Fast, unopinionated, minimalist web framework for Node.js.
