@@ -11,13 +11,19 @@
   },
   "dependencies": {
     "@colyseus/monitor": "^0.15.8",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.4",
+    "@mui/material": "^6.1.4",
+    "@types/styled-components": "^5.1.34",
     "colyseus": "^0.15.17",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "monitor": "^0.6.10",
     "phaser": "^3.86.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
