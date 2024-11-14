@@ -1,6 +1,6 @@
 VibeVerse
 
-VibeVerse is a 2D metaverse app where users can interact with each other by joining rooms, moving their characters, and communicating through a chat feature. Built with technologies like Colyseus, Phaser 3, PeerJS, and React, this app provides a collaborative online experience.
+VibeVerse is 2D metaverse app where users can interact with each other by joining rooms, moving their characters, and communicating through a chat feature. Built with technologies like Colyseus, Phaser 3, PeerJS, and React, this app provides a collaborative online experience.
 
 Installation
 
