@@ -39,8 +39,7 @@ Open your web browser and navigate to:
 
 arduino
 Copy code
-http://localhost:3000
-(or the port specified in your configuration).
+http://localhost:5173
 
 Usage
 
