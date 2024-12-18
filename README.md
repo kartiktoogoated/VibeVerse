@@ -9,7 +9,7 @@ To install dependencies for both the client and server:
 
 Install dependencies for the client:
 bash
-Copy code
+Copy codee
 npm install
 Navigate to the server directory and install server dependencies:
 bash
