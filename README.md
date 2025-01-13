@@ -51,10 +51,6 @@ Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue to discuss changes or suggest improvements.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Acknowledgments
 
 This project leverages the following technologies:
